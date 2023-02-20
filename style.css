@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Offside&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    background-image: url(imagens/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+a{
+    color: #fffffd;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background: rgba( 2, 2, 2, 0.75 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.header-container{
+    font-family: 'Offside', cursive;
+    color: #fffffd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.header-menu{
+    display: flex;
+    gap: 30px;
+}
+
+.home{
+    font-family: 'Nunito', sans-serif;
+    font-size: 120%;
+    color: #fffffd;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.menu-itens{
+    transition: 0.3s;
+}
+
+.menu-itens:hover{
+    transform: scale(1.1);
+}
+
+.home-texto-botao{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    font-family: 'Offside', cursive;
+    font-size: 32px;
+    color: #fffffd;
+    /*glassmorphism*/
+    background: rgba( 22, 219, 101, 0.7 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    padding: 10px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+button:hover{
+    transform: scale(1.1);
+}
+
+.home-img{
+    max-height: 500px;
+    /* margin-top: 50px; */
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.aulas{
+    margin-top: 20%;
+    margin-bottom: 20px;
+}
+
+.aulas-itens{
+    font-family: 'Offside', cursive;
+    font-size: 20px;
+    color: #fffffd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.aulas-img{
+    max-height: 300px;    
+    max-width: 500px;
+    transition: 0.3s;
+}
+
+.aulas-img:hover{
+    transform: scale(1.1);
+}
+
+footer button{
+    display: block;
+    margin: 2% auto;
+}
+
